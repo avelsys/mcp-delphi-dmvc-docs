@@ -1,0 +1,59 @@
+{
+  "name": "mcp-delphi-dmvc-docs",
+  "version": "1.0.0",
+  "description": "MCP server with an original, comprehensive DelphiMVCFramework guide (PT-BR) plus ready-to-use DMVC code snippets - built for use with Claude Code and other MCP clients",
+  "type": "module",
+  "main": "./build/index.js",
+  "bin": {
+    "mcp-delphi-dmvc-docs": "./build/index.js"
+  },
+  "files": [
+    "build",
+    "data",
+    "scripts",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "ingest": "node scripts/ingest-manual.mjs",
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "delphi",
+    "dmvcframework",
+    "delphimvcframework",
+    "claude",
+    "claude-code",
+    "documentation"
+  ],
+  "author": {
+    "name": "Alessandro Avelino",
+    "email": "avelinoalessandro@gmail.com",
+    "url": "https://github.com/avelinoalessandro"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avelinoalessandro/mcp-delphi-dmvc-docs.git"
+  },
+  "homepage": "https://github.com/avelinoalessandro/mcp-delphi-dmvc-docs#readme",
+  "bugs": {
+    "url": "https://github.com/avelinoalessandro/mcp-delphi-dmvc-docs/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3",
+    "pdf-parse": "^1.1.1"
+  }
+}
