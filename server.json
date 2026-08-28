@@ -6,12 +6,12 @@
     "url": "https://github.com/avelsys/mcp-delphi-dmvc-docs",
     "source": "github"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "packages": [
     {
       "registryType": "npm",
       "identifier": "mcp-delphi-dmvc-docs",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "transport": {
         "type": "stdio"
       }

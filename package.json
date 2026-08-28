@@ -1,6 +1,6 @@
 {
   "name": "mcp-delphi-dmvc-docs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "mcpName": "io.github.avelsys/dmvc-docs",
   "description": "MCP server with an original, comprehensive DelphiMVCFramework guide (PT-BR) plus ready-to-use DMVC code snippets - built for use with Claude Code and other MCP clients",
   "type": "module",
