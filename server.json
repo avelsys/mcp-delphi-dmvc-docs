@@ -1,9 +1,9 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.avelinoalessandro/dmvc-docs",
+  "name": "io.github.avelsys/dmvc-docs",
   "description": "Original, comprehensive DelphiMVCFramework guide (PT-BR) plus ready-to-use DMVC code snippets, exposed as searchable MCP tools.",
   "repository": {
-    "url": "https://github.com/avelinoalessandro/mcp-delphi-dmvc-docs",
+    "url": "https://github.com/avelsys/mcp-delphi-dmvc-docs",
     "source": "github"
   },
   "version": "1.0.0",

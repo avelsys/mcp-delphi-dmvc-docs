@@ -58,7 +58,7 @@ claude mcp add delphi-dmvc-docs -- mcp-delphi-dmvc-docs
 ### Opção 3 — a partir do código-fonte
 
 ```bash
-git clone https://github.com/avelinoalessandro/mcp-delphi-dmvc-docs.git
+git clone https://github.com/avelsys/mcp-delphi-dmvc-docs.git
 cd mcp-delphi-dmvc-docs
 npm install
 npm run build

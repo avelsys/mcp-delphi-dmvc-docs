@@ -1,7 +1,7 @@
 {
   "name": "mcp-delphi-dmvc-docs",
   "version": "1.0.0",
-  "mcpName": "io.github.avelinoalessandro/dmvc-docs",
+  "mcpName": "io.github.avelsys/dmvc-docs",
   "description": "MCP server with an original, comprehensive DelphiMVCFramework guide (PT-BR) plus ready-to-use DMVC code snippets - built for use with Claude Code and other MCP clients",
   "type": "module",
   "main": "./build/index.js",
@@ -35,16 +35,16 @@
   "author": {
     "name": "Alessandro Avelino",
     "email": "avelinoalessandro@gmail.com",
-    "url": "https://github.com/avelinoalessandro"
+    "url": "https://github.com/avelsys"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/avelinoalessandro/mcp-delphi-dmvc-docs.git"
+    "url": "git+https://github.com/avelsys/mcp-delphi-dmvc-docs.git"
   },
-  "homepage": "https://github.com/avelinoalessandro/mcp-delphi-dmvc-docs#readme",
+  "homepage": "https://github.com/avelsys/mcp-delphi-dmvc-docs#readme",
   "bugs": {
-    "url": "https://github.com/avelinoalessandro/mcp-delphi-dmvc-docs/issues"
+    "url": "https://github.com/avelsys/mcp-delphi-dmvc-docs/issues"
   },
   "engines": {
     "node": ">=18"
